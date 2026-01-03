@@ -1,5 +1,3 @@
-[🇺🇸 English](README_EN.md)
-
 # 🇰🇷 LFM2-KoEn-Tuning
 
 **LiquidAI LFM2-1.2B 기반 한국어-영어 양방향 번역 모델 파인튜닝**
@@ -36,8 +34,8 @@
 | 10 | LFM2-1.2B (Base) | 27.23 | 6.43 | 1.2B | 베이스라인 |
 | 11 | Qwen3-4B-GGUF | 25.62 | 7.46 | 4B | Base Model |
 | 12 | Gemma-3-1B-it-GGUF | 24.07 | 6.94 | 1B | 1B 모델 |
-| 13 | Qwen3-1.7B-GGUF | 21.19 | - | 1.7B Base Model |
-| 14 | Qwen3-0.6B-GGUF | 13.48 | 1.98 | 0.6B Base Model |
+| 13 | Qwen3-1.7B-GGUF | 21.19 | - | 1.7B | Base Model |
+| 14 | Qwen3-0.6B-GGUF | 13.48 | 1.98 | 0.6B | Base Model |
 
 ### GGUF 양자화 성능 (v8 merged 기준)
 
@@ -78,11 +76,12 @@
 ---
 
 ## 📂 프로젝트 구조
-
+```
 ├── colab/              # Colab 노트북
 │   ├── GRPO_v8_adapter_github.ipynb      # RL GRPO (SOTA)
 │   ├── GRPO_v8_unsloth_vllm_github.ipynb # RL Unsloth+vLLM
 │   ├── SFT_colab_github.ipynb            # SFT Colab 스타일 ⭐
+│   └── SFT_v6.1_curriculum_github.ipynb  # SFT Kaggle 스타일
 ├── kaggle/             # Kaggle 노트북
 │   ├── SFT_v6.1_curriculum.ipynb     # SFT v6.1
 │   └── SFT_v6_200k.ipynb             # SFT v6 200k
