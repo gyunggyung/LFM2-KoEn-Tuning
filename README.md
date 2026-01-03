@@ -1,3 +1,5 @@
+[🇺🇸 English](README_EN.md)
+
 # 🇰🇷 LFM2-KoEn-Tuning
 
 **LiquidAI LFM2-1.2B 기반 한국어-영어 양방향 번역 모델 파인튜닝**
